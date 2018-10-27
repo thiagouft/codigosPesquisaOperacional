@@ -1,0 +1,46 @@
+Problem:    dieta
+Rows:       5
+Columns:    5
+Non-zeros:  25
+Status:     OPTIMAL
+Objective:  custo = 2.373588297 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 nutrir[Calorias]
+                    B        20.5621             3               
+     2 nutrir[Proteinas]
+                    NL            70            70                   0.0197869 
+     3 nutrir[Calcio]
+                    NL            24            24                   0.0233313 
+     4 nutrir[Ferro]
+                    NL            33            33                   0.0129866 
+     5 custo        B        2.37359                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Trigo]     B       0.232594             0               
+     2 x[Queijo]    B        1.43039             0               
+     3 x[Figado]    NL             0             0                     0.40344 
+     4 x[Salmao]    NL             0             0                     0.15315 
+     5 x[Espinafre] B      0.0084828             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.68e-14 on row 2
+        max.rel.err = 6.36e-16 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.44e-15 on column 1
+        max.rel.err = 1.23e-15 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

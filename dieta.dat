@@ -1,0 +1,21 @@
+data;
+param : N : r :=
+	Calorias	3
+	Proteinas	70
+	Calcio		24
+	Ferro		33;
+set A := Trigo Queijo Figado Salmao Espinafre;
+param v default 0
+:	Calorias	Proteinas	Calcio	Ferro	:=
+Trigo		44.7		30	2.0	20
+Queijo		7.1		44	16.4	19
+Figado		2.2		33	.2	80		
+Salmao		5.8		76	6.8	45
+Espinafre	1.1		10	9.0	138;
+
+param : c :=
+	Trigo 0.9
+	Queijo 1.5
+	Figado 2.1
+	Salmao 2.4
+	Espinafre 2.2;		 
