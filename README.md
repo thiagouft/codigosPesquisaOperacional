@@ -9,7 +9,7 @@
 ```bash
 $ glpsol -m traveling_salesman_problem.mod -d traveling_salesman_problem.dat -o traveling_salesman_problem.txt
 ```
-## Para executar o problema do caixeiro viajante utilize o comando abaixo:
+## Para executar o problema da árvore geradora mínima utilize o comando abaixo:
 ```bash
 $ glpsol -m minimum_spanning_tree.mod -d minimum_spanning_tree.dat -o minimum_spanning_tree.txt
 ```
