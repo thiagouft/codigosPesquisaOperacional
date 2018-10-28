@@ -47,22 +47,22 @@ printf("Do nó    Para o nó    Distancia\n");
 printf{(i,j) in E: x[i,j]} "%3d       %3d       %8g\n",
    i, j, c[i,j];
 
-data;
+# data;
 
-param n := 6;
-/*Número de nós*/
+# param n := 6;
+# /*Número de nós*/
 
-param : E : c :=
-    1  2   509
-    1  4   1024
-    1  6   604
-    2  3   203
-    2  5   712
-    3  4   308
-    3  6   913
-    4  5   334
-    5  6   229
-    6  1   604
-;
+# param : E : c :=
+#     1  2   509
+#     1  4   1024
+#     1  6   604
+#     2  3   203
+#     2  5   712
+#     3  4   308
+#     3  6   913
+#     4  5   334
+#     5  6   229
+#     6  1   604
+# ;
 
-end;
+# end;
